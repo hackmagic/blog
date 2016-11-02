@@ -3,11 +3,11 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: HackMagic——智慧的魔法。
+title: HackMagic——前进的方向不会改变。
 subtitle:
 description:
 author: HackMagic
-language:
+language: zh-CN
 timezone:
 
 # URL
@@ -47,7 +47,13 @@ highlight:
 default_category: uncategorized
 category_map:
 tag_map:
-
+# Archives
+## 2: Enable pagination
+## 1: Disable pagination
+## 0: Fully Disable
+archive: 2
+category: 2
+tag: 2
 # Date / Time format
 ## Hexo uses Moment.js to parse and display date
 ## You can customize the date format as defined in
@@ -63,8 +69,9 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: aero-dual
-
+theme: landfarz
+github:
+  debug: false
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
